@@ -1,68 +1,62 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* ----- Body -----*/
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 178, 222);
+    background-image: url(../public/portada.webp);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* ----- fin Body -----*/
+/* ----- cajas header, main y footer -----*/
+.header, main, footer {
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+}
+/* ----- fin cajas header, main y footer -----*/
+/* ----- header -----*/
+.header ol {
+    display: flex;
+    justify-content: center;
+
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.header ol li {
+    margin: 10px 30px;
+    list-style: none;
+}
+/* ----- fin header -----*/
+/* ----- main -----*/
+main h1 {
+    font-size: 2.8rem;
+    color: rgb(14, 56, 207);
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+/* ----- fin main -----*/
+/* ----- section - cada producto -----*/
+.card {
+    display: flex;
+    flex-direction: column;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.divImg {
+    margin: 10px;
+
 }
+.divImg img {
+    width: 20%;
+    height: auto;
+    border: 1px solid rgb(14, 56, 207);
+}
+/* ----- fin section - cada producto -----*/
+/* ----- header -----*/
+/* ----- header -----*/
