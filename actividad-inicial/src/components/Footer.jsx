@@ -5,7 +5,12 @@ function Footer() {
 
     return (
       <footer>
-        <h1>Hola soy Footer!</h1>
+       <div><ul>
+        <li>Autor: Natalia Nárvaez Anguita</li>
+        <li>Año: 2025</li>
+        <li>tecnológia: React</li>
+        </ul>
+        </div>
       </footer>
     )
   }

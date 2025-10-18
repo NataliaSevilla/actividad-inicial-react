@@ -26,6 +26,17 @@ footer {
   background-color: aliceblue;
 }
 
+.header {
+  /* se queda fijo y como tenia el body 80% al fijarlo
+    se va por defecto a la derecha así que le hago un left de 10% y se queda donde debe
+    de quedar.*/
+  position: fixed;
+  left: 10%;
+  top: 0;
+  z-index: 88;
+  margin-top: 20px;
+}
+
 /* ----- fin cajas header, main y footer -----*/
 /* ----- header -----*/
 .header ol {
@@ -40,6 +51,11 @@ footer {
 
 /* ----- fin header -----*/
 /* ----- main -----*/
+.div-main {
+position: relative;
+top: 80px;
+
+}
 main h1 {
   font-size: 2.8rem;
   color: rgb(14, 56, 207);
@@ -57,12 +73,15 @@ main h1 {
   flex-wrap: wrap;
   /* el item baja a la siguiente fila.*/
 }
-
+h2 {
+  text-align: center;
+}
 .card {
   display: flex;
   flex-direction: column;
   width: 30%;
   margin-top: 10px;
+  margin-bottom: 10px;
   border-bottom: 3px solid rgb(14, 56, 207);
   border-left: 3px solid rgb(14, 56, 207);
   border-top: 1px solid rgb(14, 56, 207);
@@ -84,7 +103,7 @@ main h1 {
 }
 
 .divImg img {
-  width: 50%;
+  max-width: 60%;
   height: auto;
   border: 1px solid rgb(14, 56, 207);
 }
@@ -104,5 +123,17 @@ main h1 {
 }
 
 /* ----- fin section - cada producto -----*/
-/* ----- header -----*/
-/* ----- header -----*/
+/* ----- footer -----*/
+footer {
+   
+    margin-top: 100px;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+/* ----- fin footer -----*/
