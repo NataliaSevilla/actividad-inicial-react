@@ -12,8 +12,26 @@ function Products() {
   return (
     <main>
       <h1>Papelería divina</h1>
+      <div className="divProductos">
       <Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
       descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+
+<Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
+      descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+
+<Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
+      descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+
+<Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
+      descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+
+<Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
+      descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+
+<Product nombre={cuaderno_a4.nombre} categoria={cuaderno_a4.categoria} precio={cuaderno_a4.precio}
+      descripcion={cuaderno_a4.descripción} rutaImg={cuaderno_a4.urlImg}/>
+      </div>
+   
     
     </main>
   );

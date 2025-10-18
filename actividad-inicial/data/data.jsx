@@ -1,5 +1,6 @@
 const productosPapeleria = [
     {
+      id: 1,
       nombre: 'Bolígrafo Azul',
       categoria: 'Escritura',
       precio: 1.20,
@@ -7,6 +8,7 @@ const productosPapeleria = [
       urlImg: "../publi/boligrafo_azul.jpg"
     },
     {
+      id: 2,
       nombre: 'Cuaderno A4',
       categoria: 'Papelería',
       precio: 3.50,
@@ -14,6 +16,7 @@ const productosPapeleria = [
       urlImg: "../publi/cuaderno_a4.jpg"
     },
     {
+      id: 3,
       nombre: 'Lápiz HB',
       categoria: 'Escritura',
       precio: 0.80,
@@ -21,6 +24,7 @@ const productosPapeleria = [
       urlImg: "../publi/lapiz_hb.jpg"
     },
     {
+      id: 4,
       nombre: 'Goma de Borrar',
       categoria: 'Accesorios',
       precio: 0.90,
@@ -28,6 +32,7 @@ const productosPapeleria = [
       urlImg: "../publi/goma_borrar.jpg"
     },
     {
+      id: 5,
       nombre: 'Regla 30 cm',
       categoria: 'Medición',
       precio: 1.10,
@@ -35,6 +40,7 @@ const productosPapeleria = [
       urlImg: "../publi/regla_30cm.jpg"
     },
     {
+      id: 6,
       nombre: 'Marcadores Fluorescentes',
       categoria: 'Escritura',
       precio: 4.75,
@@ -42,6 +48,7 @@ const productosPapeleria = [
       urlImg: "../publi/marcadores_fluo.jpg"
     },
     {
+      id: 7,
       nombre: 'Carpeta de Anillas',
       categoria: 'Organización',
       precio: 5.25,
@@ -49,6 +56,7 @@ const productosPapeleria = [
       urlImg: "../publi/carpeta_anillas.jpg"
     },
     {
+      id: 8,
       nombre: 'Post-it Colores',
       categoria: 'Notas Adhesivas',
       precio: 2.90,
@@ -56,6 +64,7 @@ const productosPapeleria = [
       urlImg: "../publi/postit_colores.jpg"
     },
     {
+      id: 9,
       nombre: 'Tijeras Escolares',
       categoria: 'Corte',
       precio: 2.30,
@@ -63,6 +72,7 @@ const productosPapeleria = [
       urlImg: "../publi/tijeras_escolares.jpg"
     },
     {
+      id: 10,
       nombre: 'Pegamento en Barra',
       categoria: 'Adhesivos',
       precio: 1.50,

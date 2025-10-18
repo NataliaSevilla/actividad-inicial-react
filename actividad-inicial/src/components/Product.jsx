@@ -1,10 +1,12 @@
 function Product({ nombre, categoria, descripcion, precio, rutaImg }) {
   return (
     <section className="card">
-      <div>
-        <p>Nombre: {nombre}</p>
-        <p>Categoria: {categoria}</p>
-        <p>Precio: {precio}</p>
+      <div className="infoProducto">
+        <p><span>Nombre:</span> {nombre} <br />
+        <span>Categoria:</span> {categoria} <br />
+        <span>Precio:</span> {precio}
+
+        </p>
       </div>
       <div className="divImg">
         <img src={rutaImg} alt={descripcion} />
